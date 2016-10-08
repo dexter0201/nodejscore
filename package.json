@@ -1,0 +1,16 @@
+{
+    "name": "nodejscore",
+    "version": "0.1.0",
+    "description": "NodeJs core framework base on meanio",
+    "author": {
+        "name": "Dexter Nguyen"
+    },
+    "main": "index",
+    "dependencies": {
+        "lodash": "4.16.4",
+        "swig": "1.3.2",
+        "mongodb": "2.2.10",
+        "mkdirp": "0.3.5",
+        "nodejs-ioc-container": "ssh+git://git@github.com:Kalel0201/nodejs-ioc-container.git#v1.0.0"
+    }
+}
