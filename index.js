@@ -3,7 +3,7 @@
 
     var iocContainer = require('nodejs-ioc-container');
     var swig = require('swig');
-    var _container = iocContainer.container;
+    var _container = iocContainer.container();
     var fs = require('fs');
     var EventEmitter = require('events').EventEmitter;
     var _ = require('lodash');
@@ -184,7 +184,7 @@
     }
 
     function findModules() {
-        fs.stat(process.cwd() + '/node_modules', function (stats) {
+        fs.stat(process.cwd() + '/node_modules', function (err, stats) {
             if (stats.isDirectory()) {
                 fs.readdir(process.cwd() + '/node_modules', function (err, files) {
                     if (err) {
@@ -196,6 +196,10 @@
                     }
 
                     files.forEach(function (file, index) {
+                        if (file === '.bin') {
+                            return;
+                        }
+
                         fs.readFile(process.cwd() + '/node_modules/' + file + '/package.json', function (err, data) {
                             if (err) {
                                 throw err;
@@ -252,7 +256,7 @@
         });
 
         function readFiles(ext, path) {
-            fs.stat(path, function (stats) {
+            fs.stat(path, function (err, stats) {
                 if (stats.isDirectory()) {
                     fs.readdir(path, function (err, files) {
                         if (err) {
