@@ -217,7 +217,7 @@
                                 }
                             }
 
-                            if (files.lenght - 1 === index) {
+                            if (files.length - 1 === index) {
                                 console.log('Module found');
                                 _events.emit('modulesFound');
                             }
