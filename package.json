@@ -11,6 +11,6 @@
         "swig": "1.3.2",
         "mongodb": "2.2.10",
         "mkdirp": "0.3.5",
-        "nodejs-ioc-container": "ssh+git://git@github.com:Kalel0201/nodejs-ioc-container.git#v1.0.0"
+        "nodejs-ioc-container": "1.0.0"
     }
 }
