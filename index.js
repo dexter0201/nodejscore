@@ -87,8 +87,10 @@
 
             options = _.extend(_options, options);
 
-            if (_allMenus[options.menu]) {
-                _allMenus.forEach(function (menu) {
+            if (_allMenus[options.menu] || options.defaultMenu) {
+                var items = options.defaultMenu.concat(_allMenus[options.menu]);
+
+                items.forEach(function (menu) {
                     var _hasRole = false;
 
                     options.roles.forEach(function (role) {
