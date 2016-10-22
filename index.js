@@ -85,7 +85,7 @@
         this.get = function (options) {
             var _allowed = [];
 
-            options = _.extend(_options, options);
+            options = _.extend(_option, options);
 
             if (_allMenus[options.menu] || options.defaultMenu) {
                 var items = options.defaultMenu.concat(_allMenus[options.menu]);
