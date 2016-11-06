@@ -1,6 +1,6 @@
 {
     "name": "nodejscore",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "NodeJs core framework base on meanio",
     "author": {
         "name": "Dexter Nguyen"
