@@ -1,8 +1,7 @@
-(function () {
-    'use strict';
+'use strict';
 
-    const mongoose = require('mongoose');
-    var Schema = mongoose.Schema;
+module.exports = function (database) {
+    var Schema = database.connection.Schema;
 
     var PackageSchema = new Schema({
         name: String,
@@ -13,5 +12,5 @@
         }
     });
 
-    mogoose.model('Package', PackageSchema);
-}());
+    database.connection.model('Package', PackageSchema);
+};
