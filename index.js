@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./lib/dexter');
+module.exports = require('./lib/nodejscore');
