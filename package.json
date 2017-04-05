@@ -15,7 +15,7 @@
         "mongodb": "2.2.10",
         "mkdirp": "0.3.5",
         "mongoose": "^4.6.4",
-        "nodejs-ioc-container": "1.0.0",
+        "nodejs-ioc-container": "git://git@github.com:dexter0201/nodejs-ioc-container.git#develop-v2",
         "gridfs-stream": "0.4.1",
         "errorhandler": "~1.0.0",
         "passport": "0.3.2",
