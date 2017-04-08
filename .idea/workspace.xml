@@ -72,17 +72,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express-engine.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="express-engine.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/core/server/express-engine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="469">
+              <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".npmignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".npmignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.npmignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/lib/core/config/index.js" />
         <option value="$PROJECT_DIR$/lib/core/server/index.js" />
         <option value="$PROJECT_DIR$/lib/core/server/engine.js" />
-        <option value="$PROJECT_DIR$/lib/core/server/express-engine.js" />
         <option value="$PROJECT_DIR$/.npmignore" />
+        <option value="$PROJECT_DIR$/lib/core/server/express-engine.js" />
       </list>
     </option>
   </component>
@@ -292,12 +292,12 @@
       <workItem from="1491539873934" duration="621000" />
       <workItem from="1491616671305" duration="1976000" />
       <workItem from="1491621626390" duration="4720000" />
-      <workItem from="1491647180745" duration="1248000" />
+      <workItem from="1491647180745" duration="1448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12186000" />
+    <option name="totallyTimeSpent" value="12386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="29" width="1400" height="785" extended-state="0" />
@@ -606,18 +606,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/core/server/express-engine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.npmignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/core/server/express-engine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding />
         </state>
       </provider>
