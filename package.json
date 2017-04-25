@@ -7,7 +7,7 @@
     },
     "main": "index",
     "scripts": {
-       
+
     },
     "dependencies": {
         "lodash": "4.16.4",
@@ -22,7 +22,7 @@
         "uglify-js": "2.4.14",
         "q": "^1.0.1",
         "clean-css": "^2.2.23",
-        "nodejs-dependency-list": "0.1.0"
+        "nodejs-dependency-list": "0.1.1"
     },
     "devDependencies" : {
         "gulp": "latest",
