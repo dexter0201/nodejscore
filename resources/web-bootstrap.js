@@ -24,7 +24,7 @@ function processModules(modules) {
     angular.module('nodejscore', packageModules);
 }
 
-JQuery.ajax('/_getModules', {
+$.ajax('/_getModules', {
     dataType: 'json',
     async: false,
     success: processModules
