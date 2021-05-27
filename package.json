@@ -1,31 +1,22 @@
 {
-    "name": "nodejscore",
-    "version": "0.5.0",
-    "description": "NodeJs core framework base on meanio",
-    "author": {
-        "name": "Dexter Nguyen"
-    },
-    "main": "index",
-    "scripts": {
-
-    },
-    "dependencies": {
-        "lodash": "4.16.4",
-        "swig": "1.3.2",
-        "mongodb": "2.2.10",
-        "mkdirp": "0.3.5",
-        "mongoose": "^4.6.4",
-        "nodejs-ioc-container": "2.0.0",
-        "gridfs-stream": "0.4.1",
-        "errorhandler": "~1.5.0",
-        "passport": "0.3.2",
-        "uglify-js": "2.4.14",
-        "q": "^1.0.1",
-        "clean-css": "^2.2.23",
-        "nodejs-dependency-list": "0.1.1"
-    },
-    "devDependencies" : {
-        "gulp": "latest",
-        "gulp-eslint": "latest"
-    }
+  "name": "nodejscore",
+  "version": "2.0.0",
+  "description": "Dexter's nodejscore super module",
+  "main": "server",
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dexter0201/nodejscore.git"
+  },
+  "keywords": [
+    "nodejscore"
+  ],
+  "author": "Dexter Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dexter0201/nodejscore/issues"
+  },
+  "homepage": "https://github.com/dexter0201/nodejscore#readme"
 }
